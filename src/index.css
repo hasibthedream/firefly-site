@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: nicer scroll behavior for in-page anchors */
+html { scroll-behavior: smooth; }
