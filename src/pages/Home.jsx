@@ -216,7 +216,7 @@ export default function App() {
                 $847/year per string saved
                 </a>
               </div>
-            </div>
+            
 
             {/* Industrial */}
             <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
