@@ -196,7 +196,7 @@ export default function App() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-800">
             {/* Solar */}
-            <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
+            <a href="/solar" className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group block">
               <div className="text-blue-400 mb-6">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <circle cx="12" cy="12" r="5"/>
@@ -212,14 +212,11 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Solar Energy</h3>
               <p className="text-gray-500 mb-4">15-20% of arrays have undetected hotspots draining production daily</p>
-              <a href="/solar" className="text-sm text-blue-400">
-                $847/year per string saved
-                </a>
-              </div>
-            
+              <div className="text-sm text-blue-400">$847/year per string saved</div>
+            </a>
 
             {/* Industrial */}
-            <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
+            <a href="/industrial" className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group block">
               <div className="text-blue-400 mb-6">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <rect x="2" y="8" width="20" height="14"/>
@@ -232,13 +229,11 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Industrial</h3>
               <p className="text-gray-500 mb-4">Unplanned downtime costs $10K-$100K per hour at scale</p>
-              <div className="text-sm text-blue-400">
-                30-60 day early warning
-              </div>
-            </div>
+              <div className="text-sm text-blue-400">30-60 day early warning</div>
+            </a>
 
             {/* Healthcare */}
-            <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
+            <a href="/healthcare" className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group block">
               <div className="text-blue-400 mb-6">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M12 2L2 7L12 12L22 7L12 2Z"/>
@@ -248,13 +243,11 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Healthcare</h3>
               <p className="text-gray-500 mb-4">Roof leaks average $127K in remediation once discovered</p>
-              <div className="text-sm text-blue-400">
-                Catch moisture early
-              </div>
-            </div>
+              <div className="text-sm text-blue-400">Catch moisture early</div>
+            </a>
 
             {/* Oil & Gas */}
-            <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
+            <a href="/oil-gas" className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group block">
               <div className="text-blue-400 mb-6">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
@@ -262,13 +255,11 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Oil & Gas</h3>
               <p className="text-gray-500 mb-4">Traditional inspection requires scaffolding, permits, shutdowns</p>
-              <div className="text-sm text-blue-400">
-                Safe standoff distance
-              </div>
-            </div>
+              <div className="text-sm text-blue-400">Safe standoff distance</div>
+            </a>
 
             {/* Insurance */}
-            <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
+            <a href="/insurance" className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group block">
               <div className="text-blue-400 mb-6">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
@@ -276,13 +267,11 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Insurance</h3>
               <p className="text-gray-500 mb-4">Visual inspections miss the hidden risks that become claims</p>
-              <div className="text-sm text-blue-400">
-                Prevent $50K-$500K claims
-              </div>
-            </div>
+              <div className="text-sm text-blue-400">Prevent $50K-$500K claims</div>
+            </a>
 
             {/* Commercial Real Estate */}
-            <div className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group">
+            <a href="/commercial-real-estate" className="bg-gray-950 p-10 hover:bg-gray-900 transition-colors group block">
               <div className="text-blue-400 mb-6">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <rect x="4" y="2" width="16" height="20" rx="2"/>
@@ -294,10 +283,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Commercial Real Estate</h3>
               <p className="text-gray-500 mb-4">Hidden moisture destroys millions in property asset value</p>
-              <div className="text-sm text-blue-400">
-                Portfolio-wide assessment
-              </div>
-            </div>
+              <div className="text-sm text-blue-400">Portfolio-wide assessment</div>
+            </a>
           </div>
         </div>
       </section>
@@ -418,3 +405,4 @@ export default function App() {
     </div>
   );
 }
+
