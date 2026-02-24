@@ -212,7 +212,7 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Solar Energy</h3>
               <p className="text-gray-500 mb-4">15-20% of arrays have undetected hotspots draining production daily</p>
-              <div className="text-sm text-blue-400">
+              <a href="/solar"> className="text-sm text-blue-400">
                 $847/year per string saved
               </div>
             </div>
