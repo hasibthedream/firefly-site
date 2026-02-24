@@ -69,21 +69,6 @@ export default function HealthcarePage() {
               </a>
             </div>
           </div>
-
-          {/* Hospital Thermal Image */}
-          <div className="mt-20 relative">
-            <div className="aspect-video bg-gradient-to-br from-gray-900 to-gray-950 border border-gray-800 overflow-hidden">
-              <img 
-                src="https://scantherm.co.uk/wp-content/uploads/2017/09/Commercial-building-1-1024x514.png" 
-                alt="Hospital building thermal inspection"
-                className="w-full h-full object-cover opacity-70 mix-blend-luminosity"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent"></div>
-              <div className="absolute bottom-6 left-6 text-sm text-gray-400">
-                250,000 sq ft hospital thermal survey - moisture intrusion detected
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
