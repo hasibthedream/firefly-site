@@ -265,7 +265,7 @@ export default function SolarPage() {
           <div className="bg-gray-900 border border-gray-800 p-12">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-light text-blue-400 mb-2">$2,500</div>
+                <div className="text-3xl font-light text-blue-400 mb-2">$2,500 - $5,000</div>
                 <div className="text-sm text-gray-500 uppercase tracking-wide">Inspection Cost</div>
               </div>
               <div className="text-center">
