@@ -24,7 +24,7 @@ export default function App() {
               <a href="#what-we-do" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">What We Do</a>
               <a href="#industries" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">Industries</a>
               <a href="#contact" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">Contact</a>
-              <a href="#contact" className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 text-sm transition-all">
+              <a href="mailto:zarek@fireflythermal.com?subject=Discovery%20Call%20Request" className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2.5 text-sm transition-all">
                 Get Started
               </a>
             </div>
@@ -44,7 +44,7 @@ export default function App() {
               <a href="#what-we-do" className="block text-gray-400 hover:text-blue-400">What We Do</a>
               <a href="#industries" className="block text-gray-400 hover:text-blue-400">Industries</a>
               <a href="#contact" className="block text-gray-400 hover:text-blue-400">Contact</a>
-              <a href="#contact" className="block bg-blue-600 text-white px-5 py-3 text-center">
+              <a href="mailto:zarek@fireflythermal.com?subject=Discovery%20Call%20Request" className="block bg-blue-600 text-white px-5 py-3 text-center">
                 Get Started
               </a>
             </div>
@@ -60,7 +60,7 @@ export default function App() {
             <div className="inline-block mb-6">
               <div className="flex items-center space-x-2 text-blue-400 text-sm bg-blue-950/30 px-4 py-2 border border-blue-900/30">
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-                <span>Launching Spring 2026</span>
+                <span>Now Accepting Clients</span>
               </div>
             </div>
             
@@ -76,7 +76,7 @@ export default function App() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="#contact" 
+                href="mailto:zarek@fireflythermal.com?subject=Discovery%20Call%20Request" 
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 text-lg transition-all group"
               >
                 Schedule Inspection
@@ -120,8 +120,8 @@ export default function App() {
             <div className="text-sm text-gray-500 uppercase tracking-wide">Autonomous Analysis</div>
           </div>
           <div>
-            <div className="text-4xl font-light text-blue-400 mb-2">∞</div>
-            <div className="text-sm text-gray-500 uppercase tracking-wide">Safer Than Manual</div>
+            <div className="text-4xl font-light text-blue-400 mb-2">100%</div>
+            <div className="text-sm text-gray-500 uppercase tracking-wide">Remote Inspection</div>
           </div>
         </div>
       </section>
@@ -212,8 +212,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Solar Energy</h3>
               <p className="text-gray-500 mb-4">15-20% of arrays have undetected hotspots draining production daily</p>
-              <div className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
-                $847/year per string saved <ArrowRight size={16} className="ml-2"/>
+              <div className="text-sm text-blue-400">
+                $847/year per string saved
               </div>
             </div>
 
@@ -231,8 +231,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Industrial</h3>
               <p className="text-gray-500 mb-4">Unplanned downtime costs $10K-$100K per hour at scale</p>
-              <div className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
-                30-60 day early warning <ArrowRight size={16} className="ml-2"/>
+              <div className="text-sm text-blue-400">
+                30-60 day early warning
               </div>
             </div>
 
@@ -247,8 +247,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Healthcare</h3>
               <p className="text-gray-500 mb-4">Roof leaks average $127K in remediation once discovered</p>
-              <div className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
-                Catch moisture early <ArrowRight size={16} className="ml-2"/>
+              <div className="text-sm text-blue-400">
+                Catch moisture early
               </div>
             </div>
 
@@ -261,8 +261,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Oil & Gas</h3>
               <p className="text-gray-500 mb-4">Traditional inspection requires scaffolding, permits, shutdowns</p>
-              <div className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
-                Safe standoff distance <ArrowRight size={16} className="ml-2"/>
+              <div className="text-sm text-blue-400">
+                Safe standoff distance
               </div>
             </div>
 
@@ -275,8 +275,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Insurance</h3>
               <p className="text-gray-500 mb-4">Visual inspections miss the hidden risks that become claims</p>
-              <div className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
-                Prevent $50K-$500K claims <ArrowRight size={16} className="ml-2"/>
+              <div className="text-sm text-blue-400">
+                Prevent $50K-$500K claims
               </div>
             </div>
 
@@ -293,8 +293,8 @@ export default function App() {
               </div>
               <h3 className="text-2xl font-light mb-3">Commercial Real Estate</h3>
               <p className="text-gray-500 mb-4">Hidden moisture destroys millions in property asset value</p>
-              <div className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform inline-flex items-center">
-                Portfolio-wide assessment <ArrowRight size={16} className="ml-2"/>
+              <div className="text-sm text-blue-400">
+                Portfolio-wide assessment
               </div>
             </div>
           </div>
@@ -381,19 +381,19 @@ export default function App() {
 
           <div className="text-center">
             <a 
-              href="mailto:zarek@fireflythermal.com?subject=Discovery Call Request" 
+              href="mailto:zarek@fireflythermal.com?subject=Discovery%20Call%20Request" 
               className="inline-flex items-center bg-blue-600 hover:bg-blue-500 text-white px-10 py-5 text-lg transition-all group"
             >
               Schedule Discovery Call
               <ArrowRight className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" />
             </a>
             <p className="mt-6 text-sm text-gray-500">
-              Portfolio-building rates available for early clients
+              Pilot program pricing available for early clients
             </p>
           </div>
 
           <div className="mt-16 pt-8 border-t border-gray-900 text-center text-gray-500 text-sm">
-            © 2026 Firefly Thermal • Founded by Zarek Hasib • Based in Minneapolis, MN, serving clients nationwide
+            Founded by Zarek Hasib, University of Minnesota • Based in Minneapolis, MN
           </div>
         </div>
       </section>
