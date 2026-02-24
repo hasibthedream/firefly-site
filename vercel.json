@@ -3,20 +3,3 @@
     { "source": "/(.*)", "destination": "/" }
   ]
 }
-```
-
-4. Scroll down, write commit message: "Add Vercel routing config"
-5. Click **Commit changes**
-
----
-
-## **STEP 8 (Alternative): Fix Deployment Routing (Netlify)**
-
-If you're using Netlify:
-
-1. In your repo, click on the `public` folder (or create it if it doesn't exist)
-2. Click **Add file** → **Create new file**
-3. Name it: `_redirects` (no file extension)
-4. Paste this:
-```
-/*    /index.html   200
