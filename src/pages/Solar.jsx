@@ -70,6 +70,21 @@ export default function SolarPage() {
               </a>
             </div>
           </div>
+
+          {/* Solar Array Thermal Image */}
+          <div className="mt-20 relative">
+            <div className="aspect-video bg-gradient-to-br from-gray-900 to-gray-950 border border-gray-800 overflow-hidden">
+              <img 
+                src="https://www.xinfrared.com/cdn/shop/articles/banner-How_to_Detect_Solar_Panel_Anomalies_Fast_Using_Thermal_Imaging_1024x1024.jpg?v=1706418606" 
+                alt="Solar panel thermal inspection showing hotspots"
+                className="w-full h-full object-cover opacity-70 mix-blend-luminosity"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent"></div>
+              <div className="absolute bottom-6 left-6 text-sm text-gray-400">
+                5MW solar farm thermal survey - 127 anomalies detected
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -167,8 +182,161 @@ export default function SolarPage() {
               </div>
             </div>
 
-            {/* remaining cards unchanged */}
+            <div className="bg-gray-900 border border-gray-800 p-8">
+              <div className="flex items-start space-x-4 mb-4">
+                <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-xl font-light mb-2">String-Level Degradation</h3>
+                  <p className="text-gray-400">
+                    Entire strings showing elevated temperatures indicate wiring issues or inverter problems.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-900 border border-gray-800 p-8">
+              <div className="flex items-start space-x-4 mb-4">
+                <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-xl font-light mb-2">Junction Box Issues</h3>
+                  <p className="text-gray-400">
+                    Overheating connections create fire risks and production loss. Critical safety concern.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-900 border border-gray-800 p-8">
+              <div className="flex items-start space-x-4 mb-4">
+                <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-xl font-light mb-2">Soiling & Shading</h3>
+                  <p className="text-gray-400">
+                    Uneven thermal patterns reveal cleaning needs and vegetation issues before visual inspection.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-900 border border-gray-800 p-8">
+              <div className="flex items-start space-x-4 mb-4">
+                <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-xl font-light mb-2">Inverter Performance</h3>
+                  <p className="text-gray-400">
+                    Thermal signatures show inverter efficiency issues before they cascade into string failures.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-32 px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="max-w-3xl mb-20">
+            <h2 className="text-4xl md:text-5xl font-light mb-6">How it works</h2>
+            <p className="text-xl text-gray-400 leading-relaxed">From contact to actionable data in 48 hours</p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-8">
+            <div className="border-l-2 border-blue-900 pl-6">
+              <div className="text-4xl font-light text-blue-400 mb-4">1</div>
+              <h3 className="text-xl font-light mb-3">Discovery Call</h3>
+              <p className="text-gray-400">15 minutes to understand your portfolio size, locations, and priorities</p>
+            </div>
+
+            <div className="border-l-2 border-blue-900 pl-6">
+              <div className="text-4xl font-light text-blue-400 mb-4">2</div>
+              <h3 className="text-xl font-light mb-3">Thermal Survey</h3>
+              <p className="text-gray-400">30-60 minute autonomous drone flight captures every panel at optimal resolution</p>
+            </div>
+
+            <div className="border-l-2 border-blue-900 pl-6">
+              <div className="text-4xl font-light text-blue-400 mb-4">3</div>
+              <h3 className="text-xl font-light mb-3">AI Analysis</h3>
+              <p className="text-gray-400">Machine learning detects anomalies, classifies severity, and prioritizes repairs</p>
+            </div>
+
+            <div className="border-l-2 border-blue-900 pl-6">
+              <div className="text-4xl font-light text-blue-400 mb-4">4</div>
+              <h3 className="text-xl font-light mb-3">48h Report</h3>
+              <p className="text-gray-400">Thermal imagery, GPS coordinates, severity rankings, and repair recommendations</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ROI Calculator */}
+      <section className="py-32 px-6 lg:px-8 border-y border-gray-900 bg-gradient-to-b from-blue-950/10 to-transparent">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-light mb-6">The ROI is obvious</h2>
+            <p className="text-xl text-gray-400">One inspection pays for itself in recovered production</p>
+          </div>
+
+          <div className="bg-gray-900 border border-gray-800 p-12">
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-3xl font-light text-blue-400 mb-2">$2,500</div>
+                <div className="text-sm text-gray-500 uppercase tracking-wide">Inspection Cost</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-light text-green-400 mb-2">14 panels</div>
+                <div className="text-sm text-gray-500 uppercase tracking-wide">Avg Issues Found</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-light text-green-400 mb-2">$11,858</div>
+                <div className="text-sm text-gray-500 uppercase tracking-wide">Annual Recovery</div>
+              </div>
+            </div>
+
+            <div className="border-t border-gray-800 pt-8">
+              <div className="text-center">
+                <div className="text-5xl font-light text-green-400 mb-4">4.7X ROI</div>
+                <p className="text-gray-400 max-w-2xl mx-auto">
+                  Based on average 5MW solar farm inspection. Actual results vary by array age, 
+                  location, and maintenance history. Conservative estimate using $847/year per string loss.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-32 px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-light mb-6 leading-tight">
+            Stop losing production
+            <span className="block text-blue-400 mt-2">you can't see</span>
+          </h2>
+          <p className="text-xl text-gray-400 mb-12">
+            Schedule a discovery call to discuss your solar portfolio
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <a 
+              href="mailto:zarek@fireflythermal.com?subject=Solar%20Inspection%20Request" 
+              className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white px-10 py-5 text-lg transition-all group"
+            >
+              Schedule Inspection
+              <ArrowRight className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a 
+              href="tel:7632280790" 
+              className="inline-flex items-center justify-center border border-gray-700 hover:border-blue-500 text-gray-300 hover:text-blue-400 px-10 py-5 text-lg transition-all"
+            >
+              <Phone className="w-5 h-5 mr-2" />
+              (763) 228-0790
+            </a>
+          </div>
+
+          <p className="text-sm text-gray-500">
+            Pilot program pricing available for early solar operations clients
+          </p>
         </div>
       </section>
 
