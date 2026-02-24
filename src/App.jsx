@@ -393,7 +393,7 @@ export default function App() {
           </div>
 
           <div className="mt-16 pt-8 border-t border-gray-900 text-center text-gray-500 text-sm">
-            Founded by Zarek Hasib, University of Minnesota • Based in Minneapolis, MN
+            Founded by Zarek Hasib • Based in Minneapolis, MN • Serving clients nationwide
           </div>
         </div>
       </section>
